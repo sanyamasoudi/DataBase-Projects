@@ -1,0 +1,16 @@
+﻿TrackingCode,Status,DateOfOrdering,TotalPrice,City,Street,PostalCode
+TRC001,Delivered,5/15/2024,250,New York,123 Main St,10001
+TRC002,In Progress,5/16/2024,180,Los Angeles,456 Elm St,90001
+TRC003,Shipped,5/17/2024,300,Chicago,789 Oak St,60601
+TRC004,Pending,5/18/2024,150,Houston,101 Pine St,77001
+TRC005,Delivered,5/19/2024,200,Phoenix,202 Maple St,85001
+TRC006,Shipped,5/20/2024,280,Philadelphia,303 Birch St,19019
+TRC007,In Progress,5/21/2024,220,San Antonio,404 Cedar St,78201
+TRC008,Delivered,5/22/2024,190,San Diego,505 Walnut St,92101
+TRC009,Shipped,5/23/2024,270,Dallas,606 Oakwood St,75201
+TRC010,Pending,5/24/2024,140,San Jose,707 Pinecrest St,95101
+TRC011,Delivered,5/25/2024,230,Austin,808 Maplewood St,78701
+TRC012,Shipped,5/26/2024,260,Jacksonville,909 Oakdale St,32201
+TRC013,Pending,5/27/2024,170,Indianapolis,1010 Cedarwood St,46201
+TRC014,Delivered,5/28/2024,240,San Francisco,1111 Elmwood St,94101
+TRC015,In Progress,5/29/2024,290,Columbus,1212 Maplehurst St,43201

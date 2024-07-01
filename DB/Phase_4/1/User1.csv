@@ -1,0 +1,46 @@
+﻿UserName,name,name,pass,Gender,RegisterType,CV,DateOfBirth,Picture,Country
+user01,Yeo,Crosby,password123,Male,"Buyer,Artist",Avid collector of contemporary art pieces,1-Dec-24,pic01.jpg,Spain
+user02,Celeste,Avila,pass456,Female,Artist,Renowned artist specializing in oil paintings,8-Jun-24,pic02.jpg,Peru
+user03,Thane,Smith,securepass789,Female,Reviewer,Art critic with a focus on modern art,17-Dec-23,pic03.jpg,Austria
+user04,Gage,Callahan,mypass111,Male,Buyer,Collector of vintage art pieces,23-Nov-24,pic04.jpg,Singapore
+user05,Nita,Nita,qwerty1234,Female,Artist,Sculptor known for abstract sculptures,25-Mar-25,pic05.jpg,Russian Federation
+user06,Ariana,Mann,davidpass,Male,Reviewer,Art reviewer with a keen eye for detail,20-Jan-25,pic06.jpg,Spain
+user07,Blaze,Thornton,laura_pw,Female,Buyer,Passionate about acquiring fine art prints,12-Feb-25,pic07.jpg,South Korea
+user08,Lenore,Boone,robert_789,Male,Artist,Expert in selling rare and antique artworks,4-Jul-23,pic08.jpg,Ireland
+user09,Josiah,Coleman,olivia_pass,Female,Reviewer,Provides insightful reviews on art exhibits,21-Jul-24,pic09.jpg,Canada
+user10,Lewis,Sellers,dan123,Male,Buyer,Interested in modern art installations,18-Jun-23,pic10.jpg,Mexico
+user11,Mufutau ,Ewing,emma_pass,Female,Artist,Painter known for vibrant watercolor works,13-Feb-25,pic11.jpg,Nigeria
+user12,Moses,Nolan,chr1spass,Male,Reviewer,Reviews contemporary art exhibitions,22-Jun-24,pic12.jpg,United Kingdom
+user13,Darius,Finley,megan_pw,Female,Buyer,Collecting art for interior design projects,20-Feb-25,pic13.jpg,Pakistan
+user14,Rhona,Cross,brian_321,Male,Artist,Specializes in selling outdoor sculptures,4-Nov-24,pic14.jpg,United States
+user15,Jakeem,Stafford,sophia_pass,Female,Reviewer,Critiques emerging artists and their work,24-May-24,pic15.jpg,Canada
+user16,Jackson,Hancock,BC1800,Male,Buyer,Has been in many galleries as buyer,5-Nov-23,pic16.jpg,Sweden
+user17,Shelley,Alston,DeS_pa19,Male,Artist,Winner for artist of the year,13-Feb-24,pic17.jpg,Brazil
+user18,Ginger,Nelson,Al_63,Female,Reviewer,working in reviewer maganzine for 10 years,22-Mar-24,pic18.jpg,Ireland
+user19,Zelenia,Rose,Ba_B,Male,Buyer,Avid collector of contemporary art pieces,25-Dec-24,pic19.jpg,Mexico
+user20,Jemima,Key,JK_A,Female,Artist,Renowned artist specializing in oil paintings,16-Jul-24,pic20.jpg,Norway
+user21,Reuben,Keith,RKK,Male,Reviewer,Art critic with a focus on modern art,27-Aug-24,pic21.jpg,Italy
+user22,August,Dominguez,Ado_pass,Male,Buyer,Collector of vintage art pieces,18-Dec-23,pic22.jpg,South Africa
+user23,Eaton,Randolph,Era_pass,Female,Artist,Sculptor known for abstract sculptures,2-Jul-24,pic23.jpg,Netherlands
+user24,Sasha,Miller,SMILL_pas,Female,Reviewer,Art reviewer with a keen eye for detail,28-Jan-25,pic24.jpg,Netherlands
+user25,Nissim,Allison,N_Alli,Female,Buyer,Passionate about acquiring fine art prints,9-Aug-23,pic25.jpg,Germany
+user26,Dawn,Sears,Da_s13,Male,Artist,Expert in selling rare and antique artworks,3-Oct-23,pic26.jpg,Vietnam
+user27,Ivan,Cobb,Iva_Co8,Male,Reviewer,Provides insightful reviews on art exhibits,19-Mar-24,pic27.jpg,Russian Federation
+user28,Tanya,Shepherd,TaAhSh,Female,Buyer,Interested in modern art installations,10-Jan-25,pic28.jpg,Chile
+user29,Xanthus,Beck,Xa9_B,Male,Artist,Painter known for vibrant watercolor works,10-Aug-23,pic29.jpg,Mexico
+user30,Cassandra Becker,Becker,Ca_Bk,Female,Reviewer,Reviews contemporary art exhibitions,18-Jan-25,pic30.jpg,Austria
+user31,Glenna,Barr,Glenna_89,Female,Buyer,Collecting art for interior design projects,12-Dec-24,pic31.jpg,Russian Federation
+user32,Jena,Yates,Jena_78,Female,Artist,Specializes in selling outdoor sculptures,20-Sep-23,pic32.jpg,Poland
+user33,Alea,Gilmore,AlGilll,Female,Reviewer,Critiques emerging artists and their work,21-Jan-24,pic33.jpg,Singapore
+user34,Scarlet,Buckley,Sc_Bu,Female,Buyer,Has been in many galleries as buyer,28-Nov-23,pic34.jpg,Vietnam
+user35,Oscar,Pugh,Os_ohpu,Male,Artist,Winner for artist of the year,8-May-25,pic35.jpg,Germany
+user36,Britanni,Rivas,Brit_Ria,Female,Reviewer,working in reviewer maganzine for 10 years,16-Jun-24,pic36.jpg,Costa Rica
+user37,Orli,Warner,OW899,Female,Buyer,Avid collector of contemporary art pieces,23-Mar-25,pic37.jpg,Pakistan
+user38,Kennan,Guy,kennaG,Female,Artist,Renowned artist specializing in oil paintings,6-May-24,pic38.jpg,Ireland
+user39,Kareem,Hensley,KereeHans,Male,Reviewer,Art critic with a focus on modern art,21-Dec-23,pic39.jpg,India
+user40,Abbot,Whitley,AbWhit97,Male,Buyer,Collector of vintage art pieces,3-Oct-24,pic40.jpg,Poland
+user41,Blythe,Cohen,Blythe_23,Female,Artist,Sculptor known for abstract sculptures,17-Dec-23,pic41.jpg,China
+user42,Felicia,Jackson,Felicia_1725,Female,Reviewer,Art reviewer with a keen eye for detail,17-Apr-25,pic42.jpg,New Zealand
+user43,Allistair,Erickson,Allistair_Brazil,Male,Buyer,Passionate about acquiring fine art prints,17-May-25,pic43.jpg,Brazil
+user44,Zoe,Greene,Zeo44,Male,Artist,Expert in selling rare and antique artworks,7-Oct-23,pic44.jpg,Chile
+user45,Brennan,Cherry,Brennan11,Female,Reviewer,Provides insightful reviews on art exhibits,17-Oct-23,pic45.jpg,Spain
