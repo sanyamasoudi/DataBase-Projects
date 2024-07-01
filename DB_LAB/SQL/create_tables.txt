@@ -1,0 +1,103 @@
+-- database: :memory:
+CREATE TABLE Account(
+    birthdate DATE,
+    password BIGINT NOT NULL,
+    Fname nvarchar(256),
+    Lname nvarchar(256),
+    phone_number BIGINT,
+    user_name nvarchar(256),
+    PRIMARY KEY (user_name) 
+);
+-- database: :memory:
+CREATE TABLE Comment(
+    score TINYINT NOT NULL,
+    description nvarchar(256),
+    coment_ID TINYINT,
+    user_name nvarchar(256) NOT NULL,
+    PRIMARY KEY(coment_ID),
+    Foreign Key (user_name) REFERENCES Account (user_name)
+);
+-- database: :memory:
+CREATE TABLE Customer(
+    street nvarchar(256),
+    city nvarchar(256),
+    postcode INT,
+    birthdate DATE,
+    password BIGINT NOT NULL,
+    Fname nvarchar(256),
+    Lname nvarchar(256),
+    phone_number BIGINT,
+    user_name nvarchar(256),
+    PRIMARY KEY (user_name),
+    Foreign Key (user_name) REFERENCES Account (user_name)
+);
+-- database: :memory:
+CREATE TABLE Factor(
+    factor_ID TINYINT,
+    payment_status BIT NOT NULL,
+    date DATE,
+    total_cost money NOT NULL,
+    hour TIME,
+    user_name nvarchar(256) NOT NULL,
+    PRIMARY KEY (factor_ID),
+    Foreign Key (user_name) REFERENCES Account (user_name)
+    );
+-- database: :memory:
+CREATE TABLE Discount(
+    discount_ID TINYINT,
+    factor_ID TINYINT NOT NULL,
+    discount_type nvarchar(256),
+    user_name nvarchar(256) NOT NULL,
+    PRIMARY KEY (discount_ID),
+    Foreign Key (user_name) REFERENCES Account (user_name),
+    Foreign Key (factor_ID) REFERENCES Factor (factor_ID)
+);
+-- database: :memory:
+CREATE TABLE Employee(
+    salary money,
+    job_title nvarchar(256),
+    access_level TINYINT,
+    working_hour TIME,
+    birthdate DATE,
+    password BIGINT NOT NULL,
+    Fname nvarchar(256),
+    Lname nvarchar(256),
+    phone_number BIGINT,
+    user_name nvarchar(256),
+    PRIMARY KEY (user_name),
+    Foreign Key (user_name) REFERENCES Account (user_name)
+);
+-- database: :memory:
+CREATE TABLE Menu(
+    menu_ID TINYINT,
+    menu_type nvarchar(256),
+    user_name nvarchar(256) NOT NULL,
+    PRIMARY KEY (menu_ID),
+    Foreign Key (user_name) REFERENCES Account (user_name)
+);
+
+-- database: :memory:
+CREATE TABLE Food(
+    name nvarchar(256) NOT NULL,
+    cost money NOT NULL,
+    food_ID TINYINT,
+    description nvarchar(256),
+    user_name nvarchar(256) NOT NULL,
+    remain_number TINYINT,
+    menu_ID TINYINT NOT NULL,
+    PRIMARY KEY (food_ID),
+    Foreign Key (user_name) REFERENCES Account (user_name),
+    Foreign Key (menu_ID) REFERENCES Menu (menu_ID)
+
+);
+-- database: :memory:
+CREATE TABLE ReserveTable(
+    date DATE,
+    reservation_time TIME,
+    capacity TINYINT,
+    reserve_status BIT NOT NULL,
+    table_ID TINYINT,
+    user_name nvarchar(256) NOT NULL,
+    PRIMARY KEY (table_ID),
+    Foreign Key (user_name) REFERENCES Account (user_name)
+);

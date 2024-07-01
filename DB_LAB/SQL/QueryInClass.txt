@@ -1,0 +1,26 @@
+use[UNIVERSITY]
+select *
+from clg
+join crs on crs.CLG#=clg.clg#
+-----------------------------------
+create function collegeName3
+(@S_ID int)
+returns nvarchar(50)
+as
+begin
+    declare @clg_name nvarchar(50)
+	select @clg_name=clg.clgname
+	from std,clg
+	where std.clg#=clg.clg# and std.s#=@S_ID
+	return @clg_name
+end
+select dbo.collegeName10(900)
+---------------------------------
+select sec.term
+from clg
+join crs on clg.clg# = crs.CLG#
+join sec on sec.c# = crs.C#
+where clg.clgname = 'computer'
+------------------------------------
+select *
+from clg,crs,sec
